@@ -1,4 +1,4 @@
-package pl.justyna.passwordGeneratorApiJ;
+package pl.justyna.passwordGenerator;
 
 /**
  * http://dominisz.pl

@@ -3,13 +3,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>pl.justyna</groupId>
-    <artifactId>passwordGeneratorApiJ</artifactId>
+    <artifactId>passwordGenerator</artifactId>
     <version>1.0</version>
     <packaging>jar</packaging>
 
-    <name>passwordGeneratorApiJ</name>
+    <name>passwordGenerator</name>
     <description>Maven project for Java 8 desktop application with Lombok and JUnit dependencies</description>
-    <url>https://github.com/JustynaPaw/passwordGeneratorApiJ.git</url>
+    <url>https://github.com/JustynaPaw/passwordGenerator.git</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -18,9 +18,15 @@
         <junit.jupiter.version>5.4.1</junit.jupiter.version>
         <maven.compiler.plugin.version>3.8.0</maven.compiler.plugin.version>
         <maven.surefire.plugin.version>2.22.1</maven.surefire.plugin.version>
+        <passwordgeneratorapij.version>1.0</passwordgeneratorapij.version>
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>pl.justyna</groupId>
+            <artifactId>passwordgeneratorapij</artifactId>
+            <version>${passwordgeneratorapij.version}</version>
+        </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
