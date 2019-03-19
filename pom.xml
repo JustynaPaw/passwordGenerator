@@ -2,14 +2,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>pl.dominisz</groupId>
-    <artifactId>java8desktop</artifactId>
-    <version>1.1.0</version>
+    <groupId>pl.justyna</groupId>
+    <artifactId>passwordGeneratorApiJ</artifactId>
+    <version>1.0</version>
     <packaging>jar</packaging>
 
-    <name>java8desktop</name>
+    <name>passwordGeneratorApiJ</name>
     <description>Maven project for Java 8 desktop application with Lombok and JUnit dependencies</description>
-    <url>https://github.com/dominisz/java8desktop</url>
+    <url>https://github.com/JustynaPaw/passwordGeneratorApiJ.git</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
